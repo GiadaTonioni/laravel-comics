@@ -17,6 +17,17 @@
 
 <body>
     @include('partials.header')
+    <main>
+        <div class="container">
+            <div class="row">
+                @foreach($comics as $comic)
+                    <div class="col-12 col-lg-2">
+                        {{ $comic['series'] }}
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

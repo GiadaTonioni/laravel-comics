@@ -1,1 +1,9 @@
 @import '~bootstrap/scss/bootstrap';
+
+header{
+    ul{
+        li{
+            display: inline-block;
+        }
+    }
+}
