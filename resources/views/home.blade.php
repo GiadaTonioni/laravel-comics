@@ -17,7 +17,6 @@
 
 <body>
     @include('partials.header')
-    ciao
 </body>
 
 </html>
